@@ -1,3 +1,4 @@
+```bash
 Group19_Submission/
 │
 ├── code/
@@ -16,3 +17,4 @@ Group19_Submission/
 │   (OR environment.yml)
 │
 └── report.pdf
+```
