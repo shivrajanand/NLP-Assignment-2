@@ -1,0 +1,32 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "bio_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "sentence_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "large_string",
+      "_type": "Value"
+    },
+    "annotation": {
+      "dtype": "large_string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "split": {
+      "dtype": "large_string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

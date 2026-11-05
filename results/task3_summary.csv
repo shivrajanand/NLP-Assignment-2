@@ -1,0 +1,10 @@
+method,AUC-PR,ROC-AUC
+Random baseline (positive rate),0.7624,0.5
+T1 raw: -mean log-prob,0.7101,0.4445
+T1 raw: mean entropy,0.7189,0.4438
+T2 raw: BERTScore,0.8148,0.626
+T2 raw: NLI,0.9306,0.8251
+Task 3 ensemble (logit NLI),0.9245,0.815
+LR on Task 1 features (2),0.7754,0.5389
+LR on Task 2 features (2),0.8997,0.807
+Task 3 ensemble (all 4),0.9073,0.7992

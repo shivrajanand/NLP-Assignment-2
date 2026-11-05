@@ -1,0 +1,67 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "wiki_bio_gpt3_hallucination",
+  "dataset_size": 5042611,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/potsawee/wiki_bio_gpt3_hallucination@b3cfb73209a8c51582fa1d9b7fe7e45fec5529b2/data/evaluation-00000-of-00001-e91191b8ff41afbe.parquet": {
+      "num_bytes": 2561507,
+      "checksum": null
+    }
+  },
+  "download_size": 2561507,
+  "features": {
+    "gpt3_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "wiki_bio_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "gpt3_sentences": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "annotation": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "wiki_bio_test_idx": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "gpt3_text_samples": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 7604118,
+  "splits": {
+    "evaluation": {
+      "name": "evaluation",
+      "num_bytes": 5042611,
+      "num_examples": 238,
+      "dataset_name": "wiki_bio_gpt3_hallucination"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
